@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#2f80ed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    width:320px;
+    background:white;
+    padding:30px 20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.profile{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #e74c3c;
+}
+
+.badge{
+    margin:15px auto;
+    background:#1e90ff;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+h1{
+    font-size:30px;
+    color:#222;
+    margin:15px 0;
+}
+
+p{
+    color:#666;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+hr{
+    border:none;
+    height:1px;
+    background:#ddd;
+    margin:20px 0;
+}
+
+h3{
+    margin-bottom:20px;
+    color:#222;
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.social-icons a{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:white;
+    font-size:22px;
+}
+
+.facebook{
+    background:#1877f2;
+}
+
+.instagram{
+    background:#e1306c;
+}
+
+.linkedin{
+    background:#0a66c2;
+}
